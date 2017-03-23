@@ -1,0 +1,28 @@
+{
+  "name": "mongoscriper",
+  "version": "1.0.0",
+  "description": "Create a web app that lets users leave comments on the latest news. Instead of write any articles, I'll flex my Mongoose and Cheerio muscles to scrape news from a site",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gladys1230/MongoScriper.git"
+  },
+  "author": "Kit Chan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gladys1230/MongoScriper/issues"
+  },
+  "homepage": "https://github.com/gladys1230/MongoScriper#readme",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "cheerio": "^0.22.0",
+    "express": "^4.15.2",
+    "express-handlebars": "^3.0.0",
+    "mongoose": "^4.9.0",
+    "morgan": "^1.8.1",
+    "request": "^2.81.0"
+  }
+}
